@@ -1,22 +1,34 @@
 # ZKTeco Biometric Attendance Logger
 
-This project is a Python-based system that connects to a ZKTeco biometric device to log user attendance into an Excel file and send SMS notifications using the Infobip API.
+This is a Python-based attendance monitoring system that connects to a ZKTeco biometric device, logs user attendance data into an Excel file, and sends SMS notifications via the **Mspace SMS API**. The system includes a UI to view logs and a batch script for automated startup.
 
-## Features
+## ✨ Features
 
-- Connects to a ZKTeco biometric device via IP.
-- Logs attendance events (sign-in/sign-out) to an Excel file.
-- Sends SMS notifications to users upon successful attendance capture.
-- Ensures duplicate entries are not logged.
-- Handles error scenarios for device connectivity and file permissions.
+- 🔌 Connects to a ZKTeco biometric device via IP.
+- 📋 Logs attendance events (sign-in/sign-out) to an Excel file.
+- 📲 Sends SMS notifications to users upon successful attendance capture using **Mspace API**.
+- 🔁 Avoids duplicate log entries.
+- ⚠️ Handles errors such as device disconnection and file permission issues.
+- 🖥️ Includes a **UI** to view:
+  - Attendance logs
+  - SMS logs
+- ⚙️ Comes with a **batch script** to automatically run the main app and start monitoring biometric events.
 
-## Prerequisites
+## 🛠 Prerequisites
 
 Ensure you have the following installed:
 
 - Python 3.x
-- Required Python packages (see installation steps)
 - A working ZKTeco biometric device
+- Required Python packages (see below)
+
+## 📦 Requirements
+
+Install dependencies using `pip`:
+
+```bash
+pip install -r requirements.txt
+
 
 ## Requirements
 
