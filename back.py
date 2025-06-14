@@ -16,9 +16,9 @@ VALID_ACTIONS = [0, 1]  # 0: Sign-in, 1: Sign-out
 ZK_IP = "192.168.0.201"  # Replace with your ZKTeco device IP address
 ZK_PORT = 4370  # Default port for ZKTeco devices
 
-MSPACE_USERNAME = "Willie"  # **REPLACE WITH YOUR mSpace USERNAME**
-MSPACE_SENDER_ID = "ICORESYSTEM"  # **REPLACE WITH YOUR mSpace SENDER ID**
-MSPACE_API_KEY = "0c7df52992f6dbdcabeff02d18d20f85fce2fe4386a222a01828ca3c32557a3da0a886fbcefc412786440f75e07bd3680654b2331e58a13f9884844f257d941c"  # **REPLACE WITH YOUR mSpace API KEY**
+MSPACE_USERNAME = ""  # **REPLACE WITH YOUR mSpace USERNAME**
+MSPACE_SENDER_ID = ""  # **REPLACE WITH YOUR mSpace SENDER ID**
+MSPACE_API_KEY = ""  # **REPLACE WITH YOUR mSpace API KEY**
 
 # Global variables for tracking recently logged users
 recently_logged = set()
